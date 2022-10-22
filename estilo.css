@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #DEB887;
+    width: 100%;    
+}   
+
+.body{
+   
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    display: inline-block;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    color:  #4682B4;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: #4682B4;
+    color: white;
+}
+
+/* Barra de menu */
+nav{
+    background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    padding: 2px;
+    display:flex;   
+    justify-content:center;
+    height: auto;
+    
+}
+
+.nav-enlace{
+    /* background: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+    color: black;
+    font-weight: bolder; 
+    font-size:;
+    padding: 3px;   
+    padding-top: 0.8%;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 15%;
+    justify-content: space-around;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.nav-enlace:hover{
+    background: #6495ED;
+    color: black;
+}
+
+/*
+#foto-portada{
+    /*background-image: url(./imagenes/aventura_argentina.jpg); 
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: red;
+} */
+
+/* Sección izquierda */
+
+.regiones{
+   /* display: flex;
+    justify-content: space-around; */
+    display: block; 
+    text-align: center;
+    background: #DEB887;
+   /* max-width: 50%;
+    max-height: 20%;  */
+}
+
+.section{
+    background-color: #3498DB;
+    float: left;   
+    max-width: 50%;
+}
+
+/* lista CENTRO */ 
+.centro{
+    background-color:green;   
+    float: left;    
+    max-width: 50%;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.centro ul{
+    background-color: #f9d423;
+}
+
+.centro li{
+    background-color: #D2691E;;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72px;
+    font-weight: bolder;
+}
+
+/* lista CUYO */
+
+.cuyo{
+    background-color:green;   
+    float: left;
+    max-width: 50%;
+    color:white;
+    font-size:larger;
+    font-weight: lighter;
+}
+
+.cuyo ul{
+    background-color: #f9d423;
+}
+
+.cuyo li{
+    background-color:#D2691E;;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 83px;
+    font-weight: bolder;
+
+}
+
+/* lista MESOPOTAMIA */
+
+.mesopotamia{
+    background-color:green;   
+    float: left;
+    max-width: 50%;
+    color:white;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.mesopotamia ul{
+    background-color: #f9d423;
+}
+
+.mesopotamia li{
+    background-color: #D2691E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 104px;
+    font-weight: bolder;
+}
+
+/*  lista NORTE */
+
+.norte{
+    background-color:green;   
+    float: left;
+    max-width: 50%;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.norte ul{
+    background-color: #f9d423;
+}
+
+.norte li{
+    background-color: #D2691E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 79px;
+    font-weight: bolder;
+}
+
+/* lista PATAGONIA */
+
+.patagonia{
+    background-color:green;   
+    float: left;
+    max-width: 50%;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.patagonia ul{
+    background-color: #f9d423;
+
+}
+
+.patagonia li{
+    background-color: #D2691E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63.5px;
+}
+
+.region{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #D2691E;
+}  
+
+.enlace-region{
+    background-color: #D2691E;
+    color: white;
+    font-weight:lighter;
+    font-size:x-large;  
+    text-decoration: none;
+    display: block;
+    padding:2px;
+}
+
+.enlace-region:hover{
+    Color: #3498DB;
+    font-weight: bolder;
+}
+
+.imagen{
+    padding: 3px;
+    margin-top: 10px;
+    max-width: 60%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.link{
+    
+    background-color: #D2691E;
+    text-decoration: none;
+    color:white;
+    display: block;
+    margin-left: 50%;
+} 
+
+.link:hover{
+    color:#3498DB;
+    font-weight: bolder;
+    font-size:larger;
+    border-color: white;
+}
+
+/* FOOTER */
+.pie{
+    width: 100%;
+    background-color: #4682B4;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .................... CENTRO ...................................... */
+
+.princ_actividades{
+    width: 100%;
+    padding:1.5%;
+    background-color: #40E0D0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 30px;  
+
+}
+/* Contenedor de imagen */
+.contain_img_bsas{
+    width: 50%;
+    float: left;
+    padding: 2%;
+    /* background-color: antiquewhite; */
+}
+/* Imagen */ 
+.link_bsas{
+    padding: 2%;
+    border-radius: 50px;
+}
+
+/* UL */
+.act_bsas{
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    width: 50%;
+    float: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size:16.5px;
+    padding-left: 5%;
+    /* background-color: aqua; */
+}
+
+.link_act a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.link_act a:hover{
+    color:blue;
+    font-weight: bolder;
+}
