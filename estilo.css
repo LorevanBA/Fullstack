@@ -312,3 +312,25 @@ nav{
     color:blue;
     font-weight: bolder;
 } 
+/* SECTION 2 */
+
+
+.videos_content{
+    width: 50%;
+    background-color: #D2691E;
+    float: left;        
+    justify-content: center;
+}
+              
+.videos{
+    width: 50%;
+    float: left;        
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #D2691E;
+
+
+}
+
+
