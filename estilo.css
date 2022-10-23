@@ -44,7 +44,7 @@ nav{
     /* background: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
     color: black;
     font-weight: bolder; 
-    font-size:;
+    /*font-size: */
     padding: 3px;   
     padding-top: 0.8%;
     display: inline-block;
@@ -73,13 +73,11 @@ nav{
 /* Sección izquierda */
 
 .regiones{
-   /* display: flex;
+    /* display: flex;
     justify-content: space-around; */
     display: block; 
     text-align: center;
     background: #DEB887;
-   /* max-width: 50%;
-    max-height: 20%;  */
 }
 
 .section{
@@ -238,7 +236,6 @@ nav{
 }
 
 .link{
-    
     background-color: #D2691E;
     text-decoration: none;
     color:white;
@@ -284,7 +281,13 @@ nav{
 .link_bsas{
     padding: 2%;
     border-radius: 50px;
+    transition: transform 0.25;
 }
+
+.link_bsas:hover{
+    transform: scale(1.2);
+    margin-left: 25px;
+} 
 
 /* UL */
 .act_bsas{
@@ -308,4 +311,4 @@ nav{
 .link_act a:hover{
     color:blue;
     font-weight: bolder;
-}
+} 
