@@ -37,7 +37,7 @@ nav{
     display:flex;   
     justify-content:center;
     height: auto;
-    
+    font-size: 18px;
 }
 
 .nav-enlace{
@@ -75,7 +75,7 @@ nav{
 .regiones{
     /* display: flex;
     justify-content: space-around; */
-    display: block; 
+    display: block;     
     text-align: center;
     background: #DEB887;
 }
@@ -129,7 +129,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 83px;
+    height: 95px;
     font-weight: bolder;
 
 }
@@ -203,7 +203,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 63.5px;
+    height: 65px;
 }
 
 .region{
@@ -257,21 +257,42 @@ nav{
     padding:30px;
     display: flex;
     justify-content: center;
+
 }
 
 /* .................... CENTRO ...................................... */
 
+.btn_volver{
+background-color:#D2691E;
+width: 10%;
+height: 40px;
+margin-top: 1.5%;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items:center;
+font-weight: bolder;
+margin-left: 5%;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;  
+color: white;
+text-decoration: none;
+
+
+}
+
 .princ_actividades{
     width: 100%;
-    padding:1.5%;
+    padding: 25px;    
     background-color: #40E0D0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;  
     font-size: 30px;  
-
+    position: relative;
 }
-/* Contenedor de imagen */
-.contain_img_bsas{
+
+/* Contenedor de ima    gen */
+.contain_img_bsas{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     width: 50%;
     float: left;
     padding: 2%;
@@ -321,7 +342,7 @@ nav{
     float: left;        
     justify-content: center;
 }
-              
+
 .videos{
     width: 50%;
     float: left;        
@@ -329,8 +350,52 @@ nav{
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #D2691E;
+}
 
+/*..................CONTACTO...............................*/
+
+/* ........ Contenedor enlace a red social..........*/
+.contain_contacto{
+    background-color:#D2691E;
+    width: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+/*....... Titulo .......*/
+.contacto{
+    width: 100%;
+    padding:1.5%;
+    background-color:#4682B4;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 30px; 
 
 }
 
+/*......Contenedor imagen contactos............*/
+.contain_img_contacto{
+    width: 50%;
+    float: left;
+    background-color: #f9d423;
+    text-align: center;
+}
+
+/* Imagen red social */
+.link_contacto{
+    margin: 15%;
+    margin-left: 4%;
+    border:none;
+    width: 200px;
+    height: auto;
+     
+    
+    background-color: cornflowerblue;
+}
+
+/* .contain_redes_sociales{
+    background-color:coral;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 5%;
+} */
 
