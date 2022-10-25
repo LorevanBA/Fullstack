@@ -354,48 +354,23 @@ text-decoration: none;
 
 /*..................CONTACTO...............................*/
 
-/* ........ Contenedor enlace a red social..........*/
-.contain_contacto{
-    background-color:#D2691E;
-    width: 100%;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-
-/*....... Titulo .......*/
-.contacto{
-    width: 100%;
-    padding:1.5%;
-    background-color:#4682B4;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    font-size: 30px; 
-
-}
-
-/*......Contenedor imagen contactos............*/
-.contain_img_contacto{
-    width: 50%;
-    float: left;
-    background-color: #f9d423;
-    text-align: center;
-}
-
-/* Imagen red social */
-.link_contacto{
-    margin: 15%;
-    margin-left: 4%;
-    border:none;
-    width: 200px;
+/* Barra de menu */
+.barra_menu{
+    background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    padding: 0.5%;
+    display:flex;   
+    justify-content:center;
     height: auto;
-     
-    
-    background-color: cornflowerblue;
+    font-size: 18px;
 }
 
-/* .contain_redes_sociales{
-    background-color:coral;
-    width: 40%;
-    height: auto;
-    float: left;
-    margin: 5%;
-} */
+    .titulo_contacto {
+    width: 100%;
+    padding: 25px;
+    background-color:#6495ED;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+}
 
