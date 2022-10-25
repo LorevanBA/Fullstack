@@ -364,7 +364,7 @@ text-decoration: none;
     font-size: 18px;
 }
 
-    .titulo_contacto {
+.titulo_contacto {
     width: 100%;
     padding: 25px;
     background-color:#6495ED;
@@ -374,3 +374,21 @@ text-decoration: none;
     position: relative;
 }
 
+.nav-enlace-contacto{
+    color: black;
+    font-weight: bolder; 
+    padding: 3px;   
+    padding-top: 0.8%;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 15%;
+    justify-content: space-around;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.nav-enlace-contacto:hover{
+    background-color:#6495ED;
+    color: white
+}
