@@ -367,7 +367,8 @@ text-decoration: none;
 .titulo_contacto {
     width: 100%;
     padding: 25px;
-    background-color:#6495ED;
+    /* background-color:#6495ED; */
+    background-color:#DEB887;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -392,3 +393,86 @@ text-decoration: none;
     background-color:#6495ED;
     color: white
 }
+
+.container_info{
+    width: 100%;
+    background-color:coral;
+}
+
+.conte_logo_redes{
+    width: 50%;
+    background-color: dodgerblue;
+
+}
+
+/*------------------ Redes sociales  ........................ */
+
+.contenedor_general_contacto{
+    width: 100%;
+    margin: 0px;
+    
+} 
+
+
+.container_contacto{
+    background-color:white;
+    padding-bottom: 57px;
+}
+
+.logo_redes{
+    width: 6%;
+    height: auto;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding-bottom: 1%;
+}
+
+.link_contacto{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.logo_email{
+    width: 5%;
+    height: auto;
+    background-color: white;
+    margin-left: 41%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+
+.email_contacto{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+/* FOOTER */
+.pie_contacto{
+    width: 100%;
+    background-color: #4682B4;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+}    
+
+
+
+
+
+
+
+
