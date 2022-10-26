@@ -80,11 +80,10 @@ body{
     font-weight: bolder;
     margin-left: 15%;
     margin-right: 15%;
-    
 }
 
 /* FOOTER */
-.pie_contacto{
+.pie_acercade{
     width: 100%;
     background-color: #4682B4;
     padding:30px;
@@ -92,6 +91,34 @@ body{
     justify-content: center;
     margin-top: auto;
 }    
+
+/* --------------------HOJA INFORMACIÓN TURÍSTICA ......................*/
+
+.contain_informacion{
+    width: 100%;
+    margin-top:2%;
+    
+}
+
+.informacion-1{
+ /*background-color: #6495ED; */   
+ float: left;  
+ width: 50%;  
+ text-align: center;
+ list-style-type: none;
+ font-size: 20px;
+ 
+}   
+
+.informacion-2{
+    /* background-color:coral; */
+    float: left;
+    width: 50%;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
 
 
 
