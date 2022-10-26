@@ -11,7 +11,8 @@
    
     font-family: 'Work Sans', sans-serif;
     width: 100%;
-    display: inline-block;
+    min-height: 100vh;
+
 }
 
 .titulo{
@@ -402,7 +403,6 @@ text-decoration: none;
 .conte_logo_redes{
     width: 50%;
     background-color: dodgerblue;
-
 }
 
 /*------------------ Redes sociales  ........................ */
@@ -467,6 +467,7 @@ text-decoration: none;
     padding:30px;
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }    
 
 

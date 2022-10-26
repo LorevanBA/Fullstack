@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* ---------- HOJA ACERCA DE ----------------- */
+
+/* Barra de menu */
+.barra_menu_acercade{
+    background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    padding: 0.5%;
+    display:flex;
+    flex-direction: row;    
+    justify-content:center;
+    height: auto;
+    font-size: 18px;
+}
+
+.titulo_acercade{
+    width: 100%;
+    padding: 20px;
+    /* background-color:#6495ED; */
+    background-color:#DEB887;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.nav-enlace-acercade{
+    color: black;
+    background-color: #DEB887;
+    font-weight: bolder; 
+    padding: 3px;  
+    padding-top: 0.8%;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 15%;
+    justify-content: space-around;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.nav-enlace-acercade:hover{
+    background-color:#6495ED;
+    color: white
+}
+
+.container_info{
+    width: 100%;
+    background-color:coral;
+}
+
+.contenedor_general_parrafo{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:beige;
+    border-radius: 10%;
+    border-width: 50px;
+}
+
+.avatar{
+    width: 15%;
+    margin-left: 42%;
+}
+
+.parrafo{
+    font-family: Dancing Script, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+/* FOOTER */
+.pie_contacto{
+    width: 100%;
+    background-color: #4682B4;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}    
+
+
+
+
+
+
+
+
+
+
+
