@@ -258,10 +258,9 @@ nav{
     padding:30px;
     display: flex;
     justify-content: center;
-
 }
 
-/* .................... CENTRO ...................................... */
+/* .................... REGIONES ...................................... */
 
 .btn_volver{
 background-color:#D2691E;
@@ -278,7 +277,6 @@ font-size: 18px;
 font-family: Georgia, 'Times New Roman', Times, serif;  
 color: white;
 text-decoration: none;
-
 
 }
 
@@ -409,14 +407,12 @@ text-decoration: none;
 
 .contenedor_general_contacto{
     width: 100%;
-    margin: 0px;
-    
 } 
-
 
 .container_contacto{
     background-color:white;
     padding-bottom: 57px;
+
 }
 
 .logo_redes{

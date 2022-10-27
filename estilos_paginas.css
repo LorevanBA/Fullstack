@@ -56,15 +56,17 @@ body{
 
 .container_info{
     width: 100%;
-    background-color:coral;
 }
 
 .contenedor_general_parrafo{
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color:beige;
     border-radius: 10%;
-    border-width: 50px;
+    border-style: solid;
+    border-color: #DEB887;
 }
 
 .avatar{
@@ -96,27 +98,50 @@ body{
 
 .contain_informacion{
     width: 100%;
-    margin-top:2%;
-    
 }
 
 .informacion-1{
  /*background-color: #6495ED; */   
  float: left;  
- width: 50%;  
+ width: 40%;  
  text-align: center;
  list-style-type: none;
  font-size: 20px;
- 
-}   
+ /* background-color: #DEB887; */
+ background-color: beige;
+ border-style: solid;
+ border-color: #DEB887;
+ border-radius: 10%;
+ padding-top: 2%;
+ margin-bottom: 1%;
+ margin-left:7.5%;
+} 
 
 .informacion-2{
     /* background-color:coral; */
     float: left;
-    width: 50%;
+    width: 40%;
     text-align: center;
     list-style-type: none;
     font-size: 20px;
+    background-color: #DEB887;
+    background-color: beige;
+    border-style: solid;
+    border-color: #DEB887;
+    border-radius: 10%;
+    padding-top: 2%;
+    margin-left:5%;
+}
+
+.letra a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bolder;    
+}
+
+.letra a:hover{
+    color: brown;
+    font-weight:bolder;
 }
 
 
